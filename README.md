@@ -16,12 +16,12 @@ self.present(twitchSignIn, animated: true, completion: nil)
 ```
 
 ## Delegate
-TwitchSignInDelegate defines two methods:  
+TwitchSignInDelegate defines three methods:  
 
 ```
 func twitchSignInDismiss()
 ```  
-This is to allow for various presentation types and to remove the view accordingly.  
+This is to allow for the view controller to be presented in various ways and to be removed accordingly.  
 
 ```
 func twitchSignInSuccessful(accessToken : String, authData : TwitchAuthorizationData)
