@@ -4,7 +4,7 @@
 A simple UIViewController that implements the Twitch sign in process using WKWebView.
 
 ## Installation
-Create a new Application on the developer console [here] (https://dev.twitch.tv/console/apps)  
+Create a new Application on the developer console [here](https://dev.twitch.tv/console/apps)  
 
 Drag and drop TwitchSignInViewController.swift into your Xcode project.
 
